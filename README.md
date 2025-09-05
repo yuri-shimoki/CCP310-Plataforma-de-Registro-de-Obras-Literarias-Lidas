@@ -37,7 +37,7 @@ Plataforma que busca auxiliar os usuários na organização das obras literária
   - Contexto econômico: Classe média, acesso a smartphone e internet, mas não investe muito em livros físicos (prefere e-books ou bibliotecas).
   - Contexto cultural: Interesse variado, lê para lazer ou estudo, mas sem rotina fixa
 
- - Personage negativa: Desinteressado em Livros
+ - Persona negativa: Desinteressado em Livros
    - Perfil: Prefere consumir conteúdo audiovisual (filmes, séries, vídeos curtos) e raramente lê livros.
    - Contexto econômico: Classe baixa ou média. Possui acesso a dispositivos e internet de alta velocidade, mas não investe em livros ou e-readers.
   - Contexto cultural: Não acompanha lançamentos literários, não participa de clubes de leitura e não tem interesse em registrar ou organizar leituras.
@@ -108,4 +108,5 @@ O serviço deve armazenas as seguintes informações sobre o usuário:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
