@@ -148,11 +148,28 @@ A tarefa começa sempre com um gatilho simples — terminar um livro, encontrar 
 
 ## Análise de concorrência
 
-- Pesquise serviços ou podutos existentes atualmente que possam realizar o objetivo deste projeto.
-- Selecione pelo menos 3 serviços ou podutos diferentes.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
+- Serviços concorrentes:
+  - Skoob
+  - Goodreads
+  - Basmo
+
+Os serviços concorrents atendem ao mesmo mercado e mesma funcionalidade.
+
+Pontos positivos da concorrência:
+- Pesquisa com filtro
+- Pesquisa de livro por identificadores alternativos ao título (ISBN, autor, gênero, etc)
+- Cada livro possui uma página própria com nota média, sinopse, capa, entre outras informações
+- Expandem a ideia inicial para uma rede social literária, criando não apenas uma ferramente para o usuário, mas um espaço de socialização para pessoas com um interesse em comum (livros)
+
+Pontos negativos da concorrência:
+- Interface não muito agradável visualmente
+- Interface não tão simples (conteúdo em excesso)
+-
+
+Plataformas diferentes quanto ao serviço que atendem ao mesmo mercado:
+- Excel
+- Bloco de notas
+- Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
 
 ## Coleta de dados
 
@@ -210,6 +227,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
