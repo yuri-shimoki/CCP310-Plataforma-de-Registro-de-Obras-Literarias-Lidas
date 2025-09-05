@@ -1,35 +1,53 @@
-# **Tema escolhido:** Nome da aplicação ou produto
+# **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
 Trabalho de Experiencia do Usuário (UX) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Experiência do Usuário e Front-End (CCP310) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
 ## Componentes do Grupo
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Yuri da Silva Shimoki
+- Marcelo Boalento do Nascimento
 
 ## Resumo
 
-Apresente uma breve descrição da sua aplicação ou produto.
+Plataforma que busca auxiliar os usuários na organização das obras literárias já lidas.
 
 ## Introdução
 
-- Apresente uma contextualização para o problema que o serviço ou poduto proposto irá resolver e por quê esse tipo de aplicação é necessária.
-- Em uma única frase, resuma o objetivo do serviço ou poduto.
-- Que tipo de experiência o serviço ou poduto deve proporcionar para os usuários?
+- Contextualização: Leitores ávidos podem facilmente perder noção do que já leram ou não após anos de leitura. Isso pode ser problemático de algumas formas, como o leitor pode não intencionalmente comprar um livro já lido ou esquecer o nome de uma obra que ele gostou. Esta plataforma é necessária para resolver esses tipos de problemas que leitores frequentemente enfrentam e que só piora com o passar do tempo.
+- Linha de resumo: Auxiliar o usuário no registro de livros lidos.
+- Experiência que deve proporcionar: Uma experiência sem dificuldades e direta, tendo em vista a simplicidade da aplicação.
 
 ## Publico Alvo
 
-- Determine o seu público alvo:
+- Público alvo: Leitores de 16 ou mais anos de idade buscando organizar suas leituras.
 
 ### Personas
 
-- Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+- Persona Primária: Leitor Ávido
+  - Perfil: Adulto (25–45 anos), leitor frequente. Costuma ler vários livros por mês.
+  - Contexto social: Participa de clubes de leitura, fóruns online e redes sociais literárias.
+  - Contexto econômico: Classe média ou média-alta, com acesso a dispositivos móveis e internet de qualidade.
+  - Contexto cultural: Alto interesse por literatura nacional e internacional, acompanha lançamentos editoriais e eventos literários.
+
+- Persona Secundária: Leitor Casual
+  - Perfil: Jovem adulto ou adulto (18–35 anos). Lê esporadicamente, motivado por indicações ou modas literárias.
+  - Contexto social: Usa redes sociais para descobrir livros, segue influenciadores literários.
+  - Contexto econômico: Classe média, acesso a smartphone e internet, mas não investe muito em livros físicos (prefere e-books ou bibliotecas).
+  - Contexto cultural: Interesse variado, lê para lazer ou estudo, mas sem rotina fixa
+
+ - Personage negativa: Desinteressado em Livros
+   - Perfil: Prefere consumir conteúdo audiovisual (filmes, séries, vídeos curtos) e raramente lê livros.
+   - Contexto econômico: Classe baixa ou média. Possui acesso a dispositivos e internet de alta velocidade, mas não investe em livros ou e-readers.
+  - Contexto cultural: Não acompanha lançamentos literários, não participa de clubes de leitura e não tem interesse em registrar ou organizar leituras.
+
+O serviço deve armazenas as seguintes informações sobre o usuário:
+- Nome ou apelido
+- Senha
+- Lista de livros
+  - A marcação de cada livro: lido, lendo e desejado.
+  - Nota e/ou comentário em cada livro.
 
 ### Mapa de empatia
 
@@ -90,3 +108,4 @@ Apresente uma breve descrição da sua aplicação ou produto.
 <!-- TODOs:
 - Add exemplos
  -->
+
