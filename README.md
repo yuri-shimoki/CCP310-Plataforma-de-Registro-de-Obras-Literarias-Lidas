@@ -156,6 +156,38 @@ A tarefa começa sempre com um gatilho simples — terminar um livro, encontrar 
 
 ## Coleta de dados
 
+https://forms.gle/9UxkLfUVRwu7GDcJ6
+
+Pergunta 1: Com que frequência você lê livros?
+- Alguns livros por ano
+- Raramente ou nunca
+- Vários livros por mês
+- Um livro por mês
+
+Pergunta 2: Qual é o seu principal motivo para registrar os livros que lê?
+- Acompanhar metas de leitura
+- Organizar e lembrar o que já li
+- Não costumo registrar minhas leituras
+- Compartilhas opiniões com outros leitores
+
+Pergunta 3: Como você costuma descobrir novos livros para ler?
+- Promoções e tendências literárias
+- Recomendações de clubes de leitura e influenciadores
+- Não costumo buscar novos livros
+- Sugestões de amigos e redes sociais
+
+Pergunta 4: Você costuma fazer anotações ou comentários sobre os livros que lê?
+- Raramente faço anotações
+- Nunca faço esse tipo de registro
+- Às vezes, quando o livro me marca
+- Sim, sempre registro minhas impressões
+
+Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
+- Completa, com muitas funcionalidades
+- Simples e direta, sem distrações
+- Não uso aplicativos de leitura
+- Visualmente agradável, com recursos básicos
+
 ## Modelo de tarefas
 
 ## Design
@@ -178,6 +210,7 @@ A tarefa começa sempre com um gatilho simples — terminar um livro, encontrar 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
