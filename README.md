@@ -53,21 +53,79 @@ O serviço deve armazenas as seguintes informações sobre o usuário:
 
 ![Mapa de empatia](empatia.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com serviço ou poduto.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação ao serviço ou poduto. Quais expectativas o usuário cria sobre o serviço ou poduto?
-  Que tipo de serviço ou poduto mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
+- Persona Primária:
+  - O que vê:
+    - Conteúdo dos livros e livros disponíveis para compra
+    - Bibliotecas e lojas de livro
+    - Redes sociais literárias
+    - Lançamentos editoriais e eventos literários
+  - O que ouve:
+    - Resenhas sobre livros
+    - Discussões sobre o desenvolvimento de uma trama
+    - Comparações entre obras
+    - Recomendações de amigos, clubes de leitura e influenciadores
+    - Notícias sobre prêmios literários e adaptações cinematográficas
+  - O que fala e faz:
+    - Participa ativamente de grupos de leitura
+    - Compartilha resenhas e notas sobre livros
+    - Compra livros físicos e digitais com frequência
+    - Lê livros com frequência
+  - O que pensa e sente:
+    - Preocupação em manter um registro organizado de tudo que já leu
+    - Desejo de compartilhar opiniões e recomendações com outros leitores
+    - Sente frustração ao esquecer detalhes de livros ou reler algo sem perceber
+  - Dores:
+    - Dificuldade em lembrar todos os livros já lidos
+    - Perde tempo procurando anotações antigas
+    - Repete compras de livros já lidos
+    - Plataformas pouco práticas para registro rápido
+  - Ganhos:
+    - Tempo salvo em uma tarefa que iria requerir muito mais esforço manual e tempo do que o desejado.
+    - Registro simples e rápido de leituras
+    - Histórico confiável e acessível em qualquer dispositivo
+    - Possibilidade de adicionar notas e comentários
+
+- Persona Secundária:
+  - O que vê:
+    - Postagens ocasionais de influenciadores literários nas redes sociais
+    - Promoções de e-books e livros físicos
+    - Tendências literárias momentâneas
+    - Aplicativos com excesso de recursos que não usa
+  - O que ouve:
+    - Indicações de amigos e familiares
+    - Comentários sobre livros populares ou adaptados para filmes/séries
+    - Sugestões de leitura em podcasts e vídeos curtos.
+  - O que fala e faz:
+    - Compartilha ocasionalmente o que está lendo nas redes sociais
+    - Compra livros por impulso, muitas vezes motivado por modas
+    - Alterna períodos de leitura intensa com longos intervalos sem ler
+  - O que pensa e sente:
+    - Quer registrar leituras de forma prática, sem gastar muito tempo
+    - Busca inspiração para próximas leituras
+    - Sente satisfação ao concluir um livro, mas não tem hábito de anotar detalhes
+    - Não quer lidar com plataformas complexas
+  - Dores:
+    - Esquece o nome de livros que gostou
+    - Não ter um histórico organizado de leituras
+    - Falta de motivação para manter registros manuais
+    - Plataformas que exigem muito tempo para atualizar
+  - Ganhos:
+    - Registro rápido e intuitivo
+    - Interface simples e visualmente agradável
+    - Possibilidade de marcar livros como “desejados” para lembrar depois
 
 ## Contexto de uso
 
-- Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
-- O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
+- Ambiente de utilização: O serviço será utilizado principalmente através de navegadores via dispositivos móveis (smartphones e tablets) e computadores. O usuário em si pode se encontrar em sua própria casa, em uma biblioteca, livrarias, tempos de deslocamento (carro, transporte público) ou cafés e espaços de leitura. O ambiente é informal e flexível.
+- Contexto social: Usuários podem estar conectados a comunidades literárias, clubes de leitura e redes sociais.
+- Contexto econômico: Público com acesso a dispositivos móveis e internet estável. Pode incluir tanto leitores que compram livros físicos regularmente quanto aqueles que preferem e-books ou bibliotecas públicas. Usuários geralmente de classe média.
+- Contexto cultural: Valorização da leitura como hábito e forma de lazer ou estudo. Interesse por literatura nacional e internacional. Influência de tendências literárias, adaptações para cinema/TV e indicações de influenciadores.
+- Informações guardadas antes da interação: usuário atual (nome e senha). 
+- Ambiente quando o usuário interage:
+  - Finalizou um livro
+  - Começou um livro ou vai começar
+  - Está tentando referenciar um livro que já leu (pesquisa pelo histórico)
+  - Deseja atualizar a lista
 
 ## Jornada do usuário
 
@@ -75,6 +133,18 @@ O serviço deve armazenas as seguintes informações sobre o usuário:
 - Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
   - Descreva o que acontece ou pode acontecer passo a passo
   - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+
+ Narrativa:
+
+Assim que descobre o aplicativo, o usuário sente curiosidade. Talvez tenha visto uma recomendação em uma rede social literária ou tenha se lembrado de um episódio recente em que comprou um livro que já havia lido. Ele baixa o app e, ao abri-lo pela primeira vez, é recebido por uma tela simples e convidativa, que explica em poucas palavras a proposta: ajudar a registrar e organizar todas as leituras de forma prática. Sem enrolação, ele cria sua conta usando um nome e uma senha e já está pronto para começar.
+
+A primeira ação é buscar um livro que acabou de ler. Ele digita o título na barra de pesquisa e, em segundos, vê a capa e as informações correspondentes. Com um toque, adiciona o livro à sua lista e marca como “lido”. O aplicativo sugere que ele dê uma nota e escreva um breve comentário, e ele aproveita para registrar suas impressões enquanto ainda estão frescas. Ao salvar, sente a satisfação de ver o título aparecer no seu histórico, inaugurando sua biblioteca pessoal dentro da plataforma.
+
+Nos dias seguintes, o uso se torna natural. Quando está no transporte público lendo um novo romance, abre o app para atualizar o status para “lendo” e anotar uma frase que o marcou. Ao visitar uma livraria, pega um livro que chamou sua atenção e, antes de decidir comprá-lo, escaneia o código de barras pelo aplicativo. A resposta é imediata: o título já está na sua lista de desejados, adicionado semanas atrás quando um amigo o recomendou. Ele sorri, feliz por não deixar essa informação escapar.
+
+Com o tempo, o histórico cresce. O usuário passa a consultar o aplicativo não apenas para registrar, mas também para relembrar leituras passadas, buscar por autor ou gênero, e até para revisitar comentários antigos. Ao final de cada mês, recebe um resumo das leituras concluídas, o que o motiva a continuar alimentando sua lista. A experiência é sempre rápida e sem fricção, adaptando-se ao momento: seja para uma atualização de poucos segundos, seja para uma consulta mais detalhada.
+
+A tarefa começa sempre com um gatilho simples — terminar um livro, encontrar um título novo ou lembrar de algo que leu — e se desenvolve de forma intuitiva, com o usuário navegando por buscas, marcações e anotações sem esforço. Ela termina com a sensação de controle e organização, sabendo que sua trajetória literária está registrada de forma segura e acessível. E, assim, cada interação reforça o hábito, transformando o aplicativo em um companheiro constante de leitura.
 
 ## Análise de concorrência
 
@@ -108,5 +178,6 @@ O serviço deve armazenas as seguintes informações sobre o usuário:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
