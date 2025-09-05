@@ -1,4 +1,8 @@
-[TODO]: Separar a narrativa para a persona primária e secundária. Adicionar outros 2 métodos de coleta de dados. Prototipação de baixo nível.
+[TODO]:
+- Converter personas em pessoas fictícias ao invés de perfis genéricos
+- Separar a narrativa de 1 para 2 para a persona primária e secundária
+- Adicionar outros 2 métodos de coleta de dados
+- Prototipação de baixo nível.
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
@@ -229,6 +233,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
