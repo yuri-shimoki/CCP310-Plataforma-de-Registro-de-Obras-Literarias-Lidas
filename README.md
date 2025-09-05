@@ -1,3 +1,5 @@
+[TODO]: Separar a narrativa para a persona primária e secundária. Adicionar outros 2 métodos de coleta de dados. Prototipação de baixo nível.
+
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
 Trabalho de Experiencia do Usuário (UX) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Experiência do Usuário e Front-End (CCP310) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
@@ -227,6 +229,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
