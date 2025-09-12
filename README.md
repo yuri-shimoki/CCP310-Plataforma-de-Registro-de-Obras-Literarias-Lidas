@@ -1,6 +1,4 @@
 [TODO]:
-- Converter personas em pessoas fictícias ao invés de perfis genéricos
-- Separar a narrativa de 1 para 2 para a persona primária e secundária
 - Adicionar outros 2 métodos de coleta de dados
 - Prototipação de baixo nível.
 
@@ -31,24 +29,28 @@ Plataforma que busca auxiliar os usuários na organização das obras literária
 
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 
-- Persona Primária: Leitor Ávido
-  - Perfil: Adulto (25–45 anos), leitor frequente. Costuma ler vários livros por mês.
-  - Contexto social: Participa de clubes de leitura, fóruns online e redes sociais literárias.
-  - Contexto econômico: Classe média ou média-alta, com acesso a dispositivos móveis e internet de qualidade.
-  - Contexto cultural: Alto interesse por literatura nacional e internacional, acompanha lançamentos editoriais e eventos literários.
+- Persona Primária: Mariana, a leitora ávida 
+  - Idade e perfil: Mariana tem 32 anos, é professora de literatura em uma escola particular de São Paulo. Lê em média quatro livros por mês, variando entre clássicos, romances contemporâneos e não-ficção.
+  - Contexto social: Participa de um clube do livro quinzenal com amigos e mantém um perfil ativo no Instagram, onde compartilha resenhas e trechos favoritos. Também frequenta feiras literárias e eventos culturais.
+  - Contexto econômico: Classe média-alta. Tem uma estante cheia de livros físicos, mas também usa um Kindle para leituras mais práticas. Viaja anualmente para participar de eventos literários.
+  - Contexto cultural: Grande admiradora da literatura nacional, acompanha lançamentos editoriais e lê também em inglês e espanhol. Considera a leitura não apenas um lazer, mas parte central de sua identidade.
+  - Objetivos com a plataforma: Manter um histórico confiável das leituras, evitar comprar livros repetidos e registrar suas impressões para futuras discussões em sala de aula ou nos clubes de leitura.
 
-- Persona Secundária: Leitor Casual
-  - Perfil: Jovem adulto ou adulto (18–35 anos). Lê esporadicamente, motivado por indicações ou modas literárias.
-  - Contexto social: Usa redes sociais para descobrir livros, segue influenciadores literários.
-  - Contexto econômico: Classe média, acesso a smartphone e internet, mas não investe muito em livros físicos (prefere e-books ou bibliotecas).
-  - Contexto cultural: Interesse variado, lê para lazer ou estudo, mas sem rotina fixa
+- Persona Secundária: Lucas, o leitor casual
+  - Idade e perfil: Lucas tem 24 anos, está no último ano da faculdade de Administração. Costuma ler de forma irregular, geralmente motivado por recomendações de amigos ou por livros que estão em alta nas redes sociais.
+  - Contexto social: Passa boa parte do tempo no TikTok e no Instagram, onde segue influenciadores literários. Quando lê, compartilha stories mostrando o progresso, mas sem se aprofundar em resenhas.
+  - Contexto econômico: Classe média. Tem um celular moderno e usa aplicativos diariamente, mas não costuma comprar muitos livros físicos. Ele prefere aproveitar promoções de e-books ou pegar emprestado em bibliotecas digitais.
+  - Contexto cultural: Lê para relaxar entre períodos de estudo e trabalho. Gosta de romances de fantasia, thrillers e best-sellers. Não tem rotina de leitura fixa e pode passar meses sem abrir um livro.
+  - Objetivos com a plataforma: Quer um espaço rápido e prático para anotar o que já leu e o que deseja ler. Não tem paciência para sistemas complexos — precisa de algo simples, direto e visualmente atraente.
 
- - Persona negativa: Desinteressado em Livros
-   - Perfil: Prefere consumir conteúdo audiovisual (filmes, séries, vídeos curtos) e raramente lê livros.
-   - Contexto econômico: Classe baixa ou média. Possui acesso a dispositivos e internet de alta velocidade, mas não investe em livros ou e-readers.
-  - Contexto cultural: Não acompanha lançamentos literários, não participa de clubes de leitura e não tem interesse em registrar ou organizar leituras.
+- Persona Negativa: Rogério, o fã de séries
+  - Idade e perfil: Rogério tem 28 anos, trabalha como entregador de aplicativo e dedica quase todo o tempo livre a maratonar séries e assistir vídeos no YouTube. Não tem o hábito de ler livros.
+  - Contexto social: Conversa sobre filmes e séries com amigos e participa de grupos de WhatsApp que discutem cultura pop. Não tem contato com clubes de leitura ou eventos literários.
+  - Contexto econômico: Classe média-baixa. Tem um smartphone com bom acesso à internet, mas não compra livros nem investe em dispositivos de leitura.
+  - Contexto cultural: Prefere consumir conteúdo audiovisual e se informa sobre cultura através de streamings e redes sociais. Não acompanha lançamentos editoriais nem sente necessidade de organizar leituras.
+  - Objetivos com a plataforma: Nenhum. Rogério não usaria a aplicação, pois não enxerga valor em registrar leituras que praticamente não existem no seu cotidiano.
 
-O serviço deve armazenas as seguintes informações sobre o usuário:
+O serviço deve armazenar as seguintes informações sobre o usuário:
 - Nome ou apelido
 - Senha
 - Lista de livros
@@ -135,22 +137,23 @@ O serviço deve armazenas as seguintes informações sobre o usuário:
 
 ## Jornada do usuário
 
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
-- Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+### Persona primária
+Mariana descobre a plataforma através de uma recomendação em um grupo de leitura no WhatsApp. Uma amiga comenta que agora consegue organizar todas as leituras sem se perder em planilhas ou anotações soltas. Curiosa, Mariana baixa o aplicativo no celular.
 
- Narrativa:
+No primeiro acesso, ela é recebida por uma interface limpa e intuitiva. Cria sua conta rapidamente com nome e senha, e logo vê a opção de começar a registrar suas leituras. O primeiro livro que adiciona é o romance que acabou de terminar no fim de semana. Ela digita o título, encontra a capa e registra como “lido”, atribuindo uma nota e um breve comentário — algo que poderá usar depois em sala de aula com seus alunos.
 
-Assim que descobre o aplicativo, o usuário sente curiosidade. Talvez tenha visto uma recomendação em uma rede social literária ou tenha se lembrado de um episódio recente em que comprou um livro que já havia lido. Ele baixa o app e, ao abri-lo pela primeira vez, é recebido por uma tela simples e convidativa, que explica em poucas palavras a proposta: ajudar a registrar e organizar todas as leituras de forma prática. Sem enrolação, ele cria sua conta usando um nome e uma senha e já está pronto para começar.
+Nos dias seguintes, o hábito se integra à sua rotina. Quando está no transporte público, atualiza o status de um novo livro para “lendo”. Em reuniões do clube do livro, consulta o aplicativo para lembrar de anotações que fez semanas antes. Em uma visita à livraria, escaneia o código de barras de uma obra recém-lançada e a adiciona à lista de “desejados”.
 
-A primeira ação é buscar um livro que acabou de ler. Ele digita o título na barra de pesquisa e, em segundos, vê a capa e as informações correspondentes. Com um toque, adiciona o livro à sua lista e marca como “lido”. O aplicativo sugere que ele dê uma nota e escreva um breve comentário, e ele aproveita para registrar suas impressões enquanto ainda estão frescas. Ao salvar, sente a satisfação de ver o título aparecer no seu histórico, inaugurando sua biblioteca pessoal dentro da plataforma.
+Com o tempo, sua biblioteca digital cresce e se torna um registro pessoal confiável. Ao final do mês, Mariana recebe um resumo de tudo o que leu — algo que a deixa motivada e orgulhosa de manter a disciplina. A tarefa sempre começa de forma simples, seja ao finalizar ou iniciar um livro, e termina com a sensação de segurança e organização. Para Mariana, a plataforma não é apenas um apoio, mas um companheiro que valoriza sua trajetória como leitora.
 
-Nos dias seguintes, o uso se torna natural. Quando está no transporte público lendo um novo romance, abre o app para atualizar o status para “lendo” e anotar uma frase que o marcou. Ao visitar uma livraria, pega um livro que chamou sua atenção e, antes de decidir comprá-lo, escaneia o código de barras pelo aplicativo. A resposta é imediata: o título já está na sua lista de desejados, adicionado semanas atrás quando um amigo o recomendou. Ele sorri, feliz por não deixar essa informação escapar.
+### Persona Secundária
+Lucas descobre a plataforma de forma diferente: navegando pelo Instagram, vê um influenciador literário que ele segue mostrando como organiza suas leituras no app. Sem pensar muito, baixa o aplicativo mais pela curiosidade do que pela necessidade.
 
-Com o tempo, o histórico cresce. O usuário passa a consultar o aplicativo não apenas para registrar, mas também para relembrar leituras passadas, buscar por autor ou gênero, e até para revisitar comentários antigos. Ao final de cada mês, recebe um resumo das leituras concluídas, o que o motiva a continuar alimentando sua lista. A experiência é sempre rápida e sem fricção, adaptando-se ao momento: seja para uma atualização de poucos segundos, seja para uma consulta mais detalhada.
+Ao abri-lo pela primeira vez, Lucas aprecia a simplicidade. Em menos de dois minutos, cria sua conta e já adiciona o livro que começou a ler recentemente, um best-seller de fantasia que viu recomendado no TikTok. Marca como “lendo” e deixa a aplicação de lado.
 
-A tarefa começa sempre com um gatilho simples — terminar um livro, encontrar um título novo ou lembrar de algo que leu — e se desenvolve de forma intuitiva, com o usuário navegando por buscas, marcações e anotações sem esforço. Ela termina com a sensação de controle e organização, sabendo que sua trajetória literária está registrada de forma segura e acessível. E, assim, cada interação reforça o hábito, transformando o aplicativo em um companheiro constante de leitura.
+Dias depois, quando termina o livro durante um fim de semana, lembra-se da plataforma. Abre novamente, altera o status para “lido” e, com rapidez, dá uma nota sem escrever comentários longos. Semanalmente, ao ver promoções de e-books ou indicações em vídeos curtos, ele adiciona títulos à lista de “desejados” para não esquecer.
+
+A interação é prática e sem esforço. Lucas não busca criar um grande histórico detalhado, mas gosta de ter um lugar simples para lembrar o que já leu e o que ainda pretende ler. A jornada dele é marcada por picos de engajamento: começa sempre com um estímulo externo (um livro da moda, uma recomendação de amigo ou uma promoção) e termina com poucos cliques, sem fricção. Para Lucas, a plataforma funciona como um lembrete visual e descomplicado, que evita que ele se perca em leituras ocasionais.
 
 ## Análise de concorrência
 
@@ -233,6 +236,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
