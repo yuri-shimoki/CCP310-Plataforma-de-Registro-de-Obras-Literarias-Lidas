@@ -1,5 +1,4 @@
 [TODO]:
-- Adicionar outros 2 métodos de coleta de dados
 - Prototipação de baixo nível.
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
@@ -182,6 +181,7 @@ Plataformas diferentes quanto ao serviço que atendem ao mesmo mercado:
 
 ## Coleta de dados
 
+### Questionário
 https://forms.gle/9UxkLfUVRwu7GDcJ6
 
 Pergunta 1: Com que frequência você lê livros?
@@ -214,6 +214,56 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 - Não uso aplicativos de leitura
 - Visualmente agradável, com recursos básicos
 
+### Roteiro de Entrevista
+- Objetivo: Descobrir as motivações, dificuldades e expectativas dos usuários em relação ao registro de leituras.
+- Como realizar
+  - Seleção de participantes: Entre 4 e 8 pessoas.
+  - Misturar perfis: leitores ávidos (ex.: professores, estudantes de Letras) e leitores casuais (ex.: jovens adultos que leem por modas ou recomendações).
+  - Formato: Pode ser online (Google Meet, Zoom) ou presencial.
+  - Duração: entre 20 e 30 minutos por participante.
+  - Gravar (com permissão) para análise posterior.
+- Roteiro:
+  - Hábito de leitura:
+    - Quantos livros você costuma ler por mês/ano?
+    - Você tem uma rotina de leitura ou lê quando sobra tempo?
+  - Registro:
+    - Você costuma registrar os livros que lê? Como faz isso?
+    - O que te motiva ou desmotiva a manter esse registro?
+  - Problemas enfrentados:
+    - Já aconteceu de comprar ou pegar um livro repetido porque esqueceu que já tinha lido?
+    - Você sente dificuldade em lembrar detalhes de livros que leu?
+  - Tecnologia:
+    - Já usou algum app para organizar suas leituras? Como foi a experiência?
+    - O que seria indispensável para você em uma aplicação desse tipo?
+  - Desejos:
+    - Se pudesse mudar algo na forma como organiza suas leituras, o que seria?
+- Resultados esperados
+  - Relatos que mostrem dores reais (ex.: “anoto no caderno mas sempre esqueço onde coloquei”).
+  - Expectativas claras de funcionalidades (ex.: “queria algo rápido, sem muitos botões”).
+
+### Observação Pura, Sem Interação do Observador com Os Participantes
+- Seleção de participantes
+  - Convidar usuários com perfis diferentes (um leitor ávido, um casual).
+  - Pedir permissão para acompanhar em um momento real de leitura ou organização.
+- Formato
+  - Pode ser presencial (acompanhar alguém em casa, na biblioteca ou café) ou remoto (o usuário compartilha tela ou grava um vídeo mostrando seu processo).
+  - O pesquisador não interfere: apenas observa e anota.
+- O que observar
+  - Ambiente: onde a leitura/organização acontece (ex.: celular, caderno, planilha no PC).
+  - Ações concretas:
+    - Como ele registra ou deixa de registrar a leitura.
+    - Quais passos executa (ex.: abrir notas no celular, procurar livro em app, escrever em agenda).
+  - Dificuldades visíveis:
+    - Demora para encontrar um título.
+    - Bagunça em anotações.
+    - Confusão com status (lido, desejado, em leitura).
+  - Atalhos criativos:
+    - Uso de marcações improvisadas.
+    - Registro em redes sociais como substituto de um app.
+- Resultados esperados
+  - Identificação de barreiras práticas (ex.: “demorou 3 minutos para achar o livro na planilha”).
+  - Entendimento de comportamentos reais, que muitas vezes diferem do que a pessoa diz em entrevistas.
+
 ## Modelo de tarefas
 
 ## Design
@@ -236,6 +286,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
