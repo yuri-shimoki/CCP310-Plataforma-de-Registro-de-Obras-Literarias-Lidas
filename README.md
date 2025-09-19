@@ -269,7 +269,8 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 
 ## Tarefas Principais
 
-**Tarefa 1:** Criar Conta e Acessar a Plataforma
+### Tarefa 1: Criar Conta e Acessar a Plataforma
+**GOMS (Goals, Operators, Methods and Selection Rules):**
 - **Objetivo:** Permitir que o usuário crie uma conta e acesse a plataforma.
 - **Operadores:**
   - Digitar informações (ex: nome/apelido e senha)
@@ -290,7 +291,8 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
     - Clicar em "Entrar"
     - Acessar tela inicial da plataforma
 
-**Tarefa 2:** Registrar e Gerenciar Livros
+### Tarefa 2: Registrar e Gerenciar Livros
+**GOMS (Goals, Operators, Methods and Selection Rules):**
 - **Objetivo:** Permitir que o usuário registre livros (lidos, lendo, desejados), adicione notas/comentários e consulte seu histórico.
 - **Operadores:**
   - Digitar título do livro
@@ -319,6 +321,26 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
     - Acessar tela "Minha lista"
     - Pesquisar por título ou filtrar por status
     - Visualizar detalhes (notas, comentários, datas)
+
+[TODO]: 
+**HTA (Hierarchical Task Analysis):**
+| Nº | Nome | Descrição |
+| :-: | --- | --- |
+|  0  |  Tarefa: Usar a plataforma  | 1>2... |
+|  1  |  Tarefa: Criar conta e acessar a plataforma  | 1>2... |
+| 1.1 |  Tarefa: Criar conta | ... |
+| 1.1.1 | Operação: Abrir aplicação | ... |
+| 1.1.2 | Operação: Clicar em "Registrar" | ... |
+| 1.1.3 | Operação: Inserir nome/apelido | ... |
+| 1.1.4 | Operação: Inserir senha | ... |
+| 1.1.5 | Operação: Clicar em "Confirmar"
+| 1.2 |  Tarefa: Fazer login | ... |
+| 1.2.1 | Operação: Abrir a aplicação | ... |
+| 1.2.2 | Operação: Clicar em "Entrar" | ... |
+| 1.2.3 | Operação: Inserir nome/apelido | ... |
+| 1.2.4 | Operação: Inserir senha | ... |
+| 1.2.5 | Operação: Clicar em "Confirmar" | ... |
+|  2  |  Tarefa: Registrar e gerenciar livros | ... |
 
 ## Tecnologias
 **Front-end:**
@@ -354,6 +376,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
