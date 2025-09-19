@@ -1,5 +1,4 @@
 [TODO]:
-- Incluir tecnologias
 - Prototipação de baixo nível.
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
@@ -323,6 +322,20 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
   - Se o livro já está registrado, usar o método Atualizar status.
   - Se o usuário quer apenas consultar, usar o método Consultar histórico.
 
+## Tecnologias
+**Front-end:**
+- HTML
+- CSS
+- JavaScript
+
+**Back-end:**
+- Node.js
+  - Express
+- MongoDB
+
+**Prototipação:**
+- Canva
+
 ## Design
 
 - Pense nas características de Affordances do seu serviço ou poduto. 
@@ -343,6 +356,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
