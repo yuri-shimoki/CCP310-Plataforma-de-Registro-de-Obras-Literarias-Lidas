@@ -268,6 +268,62 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 
 ## Modelo de tarefas
 
+## Tarefas Principais
+
+**Tarefa 1:** Criar Conta e Acessar a Plataforma
+- **Objetivo:** Permitir que o usuário crie uma conta e acesse a plataforma.
+- **Operadores:**
+  - Digitar informações (ex: nome/apelido e senha)
+  - Selecionar botões (ex.: "Criar conta" e "Entrar")
+- **Métodos:**
+  - **Criar conta**
+    - Abrir a aplicação
+    - Selecionar "Criar conta"
+    - Inserir nome/apelido
+    - Inserir senha
+    - Clicar em "Registrar"
+  - **Fazer login**
+    - Abrir a aplicação
+    - Inserir nome/apelido
+    - Inserir senha
+    - Clicar em "Entrar"
+    - Acessar tela inicial da plataforma
+  - **Regras de Seleção**
+    - Se o usuário não tem conta, segue o método Criar conta.
+    - Se o usuário já tem conta, segue o método Fazer login.
+
+**Tarefa 2:** Registrar e Gerenciar Livros
+- **Objetivo:** Permitir que o usuário registre livros (lidos, lendo, desejados), adicione notas/comentários e consulte seu histórico.
+- **Operadores:**
+  - Digitar título do livro
+  - Selecionar status (lido, lendo, desejado)
+  - Inserir nota/comentário
+  - Confirmar registro
+  - Pesquisar no histórico
+  - Editar ou remover registros
+- **Métodos:**
+  - **Adicionar novo livro**
+    - Acessar tela "Adicionar livro"
+    - Digitar título ou escanear código de barras
+    - Selecionar status (lido, lendo, desejado)
+    - (Opcional) Inserir nota/comentário
+    - Clicar em "Salvar"
+  - **Atualizar status de um livro**
+    - Acessar lista de livros
+    - Selecionar livro desejado
+    - Alterar status (ex.: de "lendo" para "lido")
+    - (Opcional) Inserir nota/comentário adicional
+    - Confirmar atualização
+  - **Consultar histórico**
+    - Acessar tela "Minha lista"
+    - Pesquisar por título ou filtrar por status
+    - Visualizar detalhes (notas, comentários, datas)
+
+- **Regras de Seleção:**
+  - Se o livro ainda não está registrado, usar o método Adicionar novo livro.
+  - Se o livro já está registrado, usar o método Atualizar status.
+  - Se o usuário quer apenas consultar, usar o método Consultar histórico.
+
 ## Design
 
 - Pense nas características de Affordances do seu serviço ou poduto. 
@@ -288,6 +344,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
