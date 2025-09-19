@@ -1,5 +1,6 @@
 [TODO]:
 - Prototipação de baixo nível.
+- Adicionar métodos HTA (Hierarchical Task Analysis) e CTT (ConcurTaskTrees) ao destrinchamento das tarefas principais
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
@@ -275,20 +276,19 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
   - Selecionar botões (ex.: "Criar conta" e "Entrar")
 - **Métodos:**
   - **Criar conta**
+    - **Regra de Seleção:** O usuário não tem uma conta
     - Abrir a aplicação
     - Selecionar "Criar conta"
     - Inserir nome/apelido
     - Inserir senha
     - Clicar em "Registrar"
   - **Fazer login**
+    - **Regra de Seleção:** O usuário já tem uma conta
     - Abrir a aplicação
     - Inserir nome/apelido
     - Inserir senha
     - Clicar em "Entrar"
     - Acessar tela inicial da plataforma
-  - **Regras de Seleção**
-    - Se o usuário não tem conta, segue o método Criar conta.
-    - Se o usuário já tem conta, segue o método Fazer login.
 
 **Tarefa 2:** Registrar e Gerenciar Livros
 - **Objetivo:** Permitir que o usuário registre livros (lidos, lendo, desejados), adicione notas/comentários e consulte seu histórico.
@@ -301,26 +301,24 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
   - Editar ou remover registros
 - **Métodos:**
   - **Adicionar novo livro**
+    - **Regra de Seleção:** O livro ainda não está registrado
     - Acessar tela "Adicionar livro"
     - Digitar título ou escanear código de barras
     - Selecionar status (lido, lendo, desejado)
     - (Opcional) Inserir nota/comentário
     - Clicar em "Salvar"
   - **Atualizar status de um livro**
+    - **Regra de Seleção:** O livro já está registrado
     - Acessar lista de livros
     - Selecionar livro desejado
     - Alterar status (ex.: de "lendo" para "lido")
     - (Opcional) Inserir nota/comentário adicional
     - Confirmar atualização
   - **Consultar histórico**
+    - **Regra de Seleção:** O usuário quer apenas consultar um livro
     - Acessar tela "Minha lista"
     - Pesquisar por título ou filtrar por status
     - Visualizar detalhes (notas, comentários, datas)
-
-- **Regras de Seleção:**
-  - Se o livro ainda não está registrado, usar o método Adicionar novo livro.
-  - Se o livro já está registrado, usar o método Atualizar status.
-  - Se o usuário quer apenas consultar, usar o método Consultar histórico.
 
 ## Tecnologias
 **Front-end:**
@@ -356,6 +354,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
