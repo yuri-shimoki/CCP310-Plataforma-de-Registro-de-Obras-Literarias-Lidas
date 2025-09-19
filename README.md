@@ -1,6 +1,5 @@
 [TODO]:
 - Incluir tecnologias
-- Listar as 2 principais tarefas do projeto e destrinchá-las
 - Prototipação de baixo nível.
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
@@ -344,6 +343,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
