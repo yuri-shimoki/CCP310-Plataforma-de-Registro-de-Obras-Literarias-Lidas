@@ -340,7 +340,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 | 1.2.3 | Operação: Inserir nome/apelido | Condição: deve ser um nome/apelido já existente. |
 | 1.2.4 | Operação: Inserir senha | Condição: deve corresponder à senha associada ao nome/apelido já existente. |
 | 1.2.5 | Operação: Clicar em "Confirmar" |  |
-| 2 |  Tarefa: Registrar e gerenciar livros | 1 > 2 + 3 | Condição: deve possuir uma conta. |
+| 2 |  Tarefa: Registrar e gerenciar livros | 1 > 2 + 3. Condição: deve possuir uma conta. |
 | 2.1 |  Tarefa: Registrar um livro | 2.1.1 > 2.1.2 > 2.1.3 > 2.1.4 > 2.1.5 |
 | 2.1.1 | Operação: Abrir aplicação |  |
 | 2.1.2 | Operação: Clicar em "Perfil" |  |
@@ -355,11 +355,11 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 | 2.2.4 | Operação: Inserir o nome do livro | Condição: deve corresponder a um livro já registrado. |
 | 2.2.5 | Operação: Apertar a tecla "Enter" |  |
 | 2.2.6 | Tarefa: Atualizar o status do livro | 2.2.6.1 / 2.2.6.2 / 2.2.6.3 / 2.2.6.4 |
-| 2.2.6.1 | Operação: Clicar em "Lido" | ... |
-| 2.2.6.2 | Operação: Clicar em "Desejado" | ... |
-| 2.2.6.3 | Operação: Clicar em "Descartado" | ... |
-| 2.2.6.4 | Operação: Clicar em "Lendo" | ... |
-| 2.2.7 | Operação: Clicar em "Salvar" | ... |
+| 2.2.6.1 | Operação: Clicar em "Lido" |  |
+| 2.2.6.2 | Operação: Clicar em "Desejado" |  |
+| 2.2.6.3 | Operação: Clicar em "Descartado" |  |
+| 2.2.6.4 | Operação: Clicar em "Lendo" |  |
+| 2.2.7 | Operação: Clicar em "Salvar" |  |
 | 2.3 | Tarefa: Consultar histórico | 2.3.1 > 2.3.2 > 2.3.3 |
 | 2.3.1 | Operação: Abrir aplicação |  |
 | 2.3.2 | Operação: Clicar em "Perfil" |  |
@@ -399,6 +399,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
