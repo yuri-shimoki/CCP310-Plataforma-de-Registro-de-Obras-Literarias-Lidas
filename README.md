@@ -326,21 +326,44 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 **HTA (Hierarchical Task Analysis):**
 | Nº | Nome | Descrição |
 | :-: | --- | --- |
-|  0  |  Tarefa: Usar a plataforma  | 1>2... |
-|  1  |  Tarefa: Criar conta e acessar a plataforma  | 1>2... |
-| 1.1 |  Tarefa: Criar conta | ... |
-| 1.1.1 | Operação: Abrir aplicação | ... |
-| 1.1.2 | Operação: Clicar em "Registrar" | ... |
-| 1.1.3 | Operação: Inserir nome/apelido | ... |
-| 1.1.4 | Operação: Inserir senha | ... |
-| 1.1.5 | Operação: Clicar em "Confirmar"
-| 1.2 |  Tarefa: Fazer login | ... |
-| 1.2.1 | Operação: Abrir a aplicação | ... |
-| 1.2.2 | Operação: Clicar em "Entrar" | ... |
-| 1.2.3 | Operação: Inserir nome/apelido | ... |
-| 1.2.4 | Operação: Inserir senha | ... |
-| 1.2.5 | Operação: Clicar em "Confirmar" | ... |
-|  2  |  Tarefa: Registrar e gerenciar livros | ... |
+| 0 |  Tarefa: Usar a plataforma  | 1 > 2 + 3 |
+| 1 |  Tarefa: Criar conta e acessar a plataforma  | 1 > 2 |
+| 1.1 |  Tarefa: Criar conta | 1.1.1 > 1.1.2 > 1.1.3 > 1.1.4 > 1.1.5 |
+| 1.1.1 | Operação: Abrir aplicação |  |
+| 1.1.2 | Operação: Clicar em "Registrar" |  |
+| 1.1.3 | Operação: Inserir nome/apelido | Condição: deve conter uma quantidade mínima e não ultrapassar uma máxima de caracteres válidos. |
+| 1.1.4 | Operação: Inserir senha | Condição: deve conter uma quantidade mínima e não ultrapassar uma máxima de caracteres válidos. |
+| 1.1.5 | Operação: Clicar em "Confirmar" |  |
+| 1.2 |  Tarefa: Fazer login | 1.2.1 > 1.2.2 > 1.2.3 > 1.2.4 > 1.2.5 |
+| 1.2.1 | Operação: Abrir a aplicação |  |
+| 1.2.2 | Operação: Clicar em "Entrar" |  |
+| 1.2.3 | Operação: Inserir nome/apelido | Condição: deve ser um nome/apelido já existente. |
+| 1.2.4 | Operação: Inserir senha | Condição: deve corresponder à senha associada ao nome/apelido já existente. |
+| 1.2.5 | Operação: Clicar em "Confirmar" |  |
+| 2 |  Tarefa: Registrar e gerenciar livros | 1 > 2 + 3 | Condição: deve possuir uma conta. |
+| 2.1 |  Tarefa: Registrar um livro | 2.1.1 > 2.1.2 > 2.1.3 > 2.1.4 > 2.1.5 |
+| 2.1.1 | Operação: Abrir aplicação |  |
+| 2.1.2 | Operação: Clicar em "Perfil" |  |
+| 2.1.3 | Operação: Clicar em "Registrar Livro" |  |
+| 2.1.4 | Operação: Inserir o nome do livro |  |
+| 2.1.5 | Operação: Inserir o status inicial do livro |  |
+| 2.1.6 | Operação: Clicar em "Salvar" |  |
+| 2.2 |  Tarefa: Atualizar o status de um livro | 2.2.1 > 2.2.2 > 2.2.3 > 2.2.4 > 2.2.5 > 2.2.6 |
+| 2.2.1 | Operação: Abrir aplicação |  |
+| 2.2.2 | Operação: Clicar em "Perfil" |  |
+| 2.2.3 | Operação: Clicar em "Histórico de Livros" |  |
+| 2.2.4 | Operação: Inserir o nome do livro | Condição: deve corresponder a um livro já registrado. |
+| 2.2.5 | Operação: Apertar a tecla "Enter" |  |
+| 2.2.6 | Tarefa: Atualizar o status do livro | 2.2.6.1 / 2.2.6.2 / 2.2.6.3 / 2.2.6.4 |
+| 2.2.6.1 | Operação: Clicar em "Lido" | ... |
+| 2.2.6.2 | Operação: Clicar em "Desejado" | ... |
+| 2.2.6.3 | Operação: Clicar em "Descartado" | ... |
+| 2.2.6.4 | Operação: Clicar em "Lendo" | ... |
+| 2.2.7 | Operação: Clicar em "Salvar" | ... |
+| 2.3 | Tarefa: Consultar histórico | 2.3.1 > 2.3.2 > 2.3.3 |
+| 2.3.1 | Operação: Abrir aplicação |  |
+| 2.3.2 | Operação: Clicar em "Perfil" |  |
+| 2.3.3 | Operação: Clicar em "Histórico de Livros" |  |
 
 ## Tecnologias
 **Front-end:**
@@ -376,6 +399,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
