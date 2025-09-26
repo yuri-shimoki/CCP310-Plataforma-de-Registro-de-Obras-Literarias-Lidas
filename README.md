@@ -322,7 +322,6 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
     - Pesquisar por título ou filtrar por status
     - Visualizar detalhes (notas, comentários, datas)
 
-[TODO]: 
 **HTA (Hierarchical Task Analysis):**
 | Nº | Nome | Descrição |
 | :-: | --- | --- |
@@ -399,6 +398,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
