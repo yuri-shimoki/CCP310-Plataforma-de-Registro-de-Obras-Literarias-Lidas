@@ -1,6 +1,7 @@
 [TODO]:
 - Prototipação de baixo nível.
-- Adicionar métodos HTA (Hierarchical Task Analysis) e CTT (ConcurTaskTrees) ao destrinchamento das tarefas principais
+- Detalhar o HTA (Hierarchical Task Analysis) e terminar CTT (ConcurTaskTrees) ao destrinchamento das tarefas principais
+- - MoLIC
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
@@ -398,6 +399,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
