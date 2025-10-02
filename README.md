@@ -1,7 +1,6 @@
 [TODO]:
-- Prototipação de baixo nível.
-- Detalhar o HTA (Hierarchical Task Analysis) e terminar CTT (ConcurTaskTrees) ao destrinchamento das tarefas principais
-- - MoLIC
+- Detalhar o HTA (Hierarchical Task Analysis)
+- MoLIC
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
@@ -365,6 +364,13 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 | 2.3.2 | Operação: Clicar em "Perfil" |  |
 | 2.3.3 | Operação: Clicar em "Histórico de Livros" |  |
 
+**CTT (ConcurTaskTrees)**
+![CTT1](CTT-1.png)
+![CTT2](CTT-2.png)
+![CTT3](CTT-3.png)
+![CTT4](CTT-4.png)
+![CTT5](CTT-5.png)
+
 ## Tecnologias
 **Front-end:**
 - HTML
@@ -399,6 +405,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
