@@ -1,6 +1,9 @@
 [TODO]:
-- Detalhar o HTA (Hierarchical Task Analysis)
 - MoLIC
+
+[CHANGELOG]:
+- CTT adicionado
+- Detalhamento do HTA feito. Agora a coluna 'Descrição' inclui campos de entrada, plano, problema e ação.
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
@@ -325,48 +328,50 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 **HTA (Hierarchical Task Analysis):**
 | Nº | Nome | Descrição |
 | :-: | --- | --- |
-| 0 |  Tarefa: Usar a plataforma  | 1 > 2 + 3 |
-| 1 |  Tarefa: Criar conta e acessar a plataforma  | 1 > 2 |
-| 1.1 |  Tarefa: Criar conta | 1.1.1 > 1.1.2 > 1.1.3 > 1.1.4 > 1.1.5 |
+| 0 |  Tarefa: Usar a plataforma  | 1 > 2. **Plano:** permitir que o usuário crie uma conta e depois faça login, e depois registre e gerencie livros. |
+| 1 |  Tarefa: Criar conta e acessar a plataforma  | 1 > 2. **Plano:** Criar uma conta e depois fazer login. |
+| 1.1 |  Tarefa: Criar conta | 1.1.1 > 1.1.2 > 1.1.3 > 1.1.4 > 1.1.5. **Plano:** Abrir aplicativo e depois ir para a página de registro e depois inserir dados de cadastro e depois confirmar os dados. |
 | 1.1.1 | Operação: Abrir aplicação |  |
 | 1.1.2 | Operação: Clicar em "Registrar" |  |
-| 1.1.3 | Operação: Inserir nome/apelido | Condição: deve conter uma quantidade mínima e não ultrapassar uma máxima de caracteres válidos. |
-| 1.1.4 | Operação: Inserir senha | Condição: deve conter uma quantidade mínima e não ultrapassar uma máxima de caracteres válidos. |
+| 1.1.3 | Operação: Inserir nome/apelido |  **Entrada:** Texto de no máximo 16 caracteres ou números. **Ação:** invalidar este campo se o nome/apelido já existir. |
+| 1.1.4 | Operação: Inserir senha |  **Entrada:** Texto de no máximo 16 caracteres ou números. |
 | 1.1.5 | Operação: Clicar em "Confirmar" |  |
-| 1.2 |  Tarefa: Fazer login | 1.2.1 > 1.2.2 > 1.2.3 > 1.2.4 > 1.2.5 |
+| 1.2 |  Tarefa: Fazer login | 1.2.1 > 1.2.2 > 1.2.3 > 1.2.4 > 1.2.5. **Plano:** Abrir aplicativo e depois ir para a página de login e depois inserir dados de login e depois confirmar os dados. |
 | 1.2.1 | Operação: Abrir a aplicação |  |
 | 1.2.2 | Operação: Clicar em "Entrar" |  |
-| 1.2.3 | Operação: Inserir nome/apelido | Condição: deve ser um nome/apelido já existente. |
-| 1.2.4 | Operação: Inserir senha | Condição: deve corresponder à senha associada ao nome/apelido já existente. |
+| 1.2.3 | Operação: Inserir nome/apelido | **Entrada:** Texto de no máximo 16 caracteres ou números. **Ação:** invalidar este campo se o nome/apelido não existir. |
+| 1.2.4 | Operação: Inserir senha | **Entrada:** Texto de no máximo 12 caracteres, números ou símbolos. **Ação:** invalidar este campo se a senha associada ao nome/apelido não existir. |
 | 1.2.5 | Operação: Clicar em "Confirmar" |  |
-| 2 |  Tarefa: Registrar e gerenciar livros | 1 > 2 + 3. Condição: deve possuir uma conta. |
-| 2.1 |  Tarefa: Registrar um livro | 2.1.1 > 2.1.2 > 2.1.3 > 2.1.4 > 2.1.5 |
+| 2 |  Tarefa: Registrar e gerenciar livros | 1 > 2 + 3. **Plano:** Registrar um livro e depois atualizar o status de um livro ou consultar lista de livros. **Problema:** O usuário pode cadastrar livros não existentes. Se isso for restringido, então ele poderá cadastrar apenas livros no banco de dados, impedindo o cadastro de livros pouco conhecidos ou novos demais para estar no banco de dados. |
+| 2.1 |  Tarefa: Registrar um livro | 2.1.1 > 2.1.2 > 2.1.3 > 2.1.4 > 2.1.5. **Plano:** Abrir aplicativo e depois abrir a página de perfil e depois entrar na página de registro de livros e depois inserir dados do livro e depois salvá-los. |
 | 2.1.1 | Operação: Abrir aplicação |  |
 | 2.1.2 | Operação: Clicar em "Perfil" |  |
 | 2.1.3 | Operação: Clicar em "Registrar Livro" |  |
-| 2.1.4 | Operação: Inserir o nome do livro |  |
-| 2.1.5 | Operação: Inserir o status inicial do livro |  |
+| 2.1.4 | Operação: Inserir o nome do livro | **Entrada:** Um texto de no máximo 30 caracteres, números ou símbolos. |
+| 2.1.5 | Operação: Inserir o status inicial do livro | **Entrada:** um status de "lido", "desejado", "arquivado" ou "lendo". |
 | 2.1.6 | Operação: Clicar em "Salvar" |  |
-| 2.2 |  Tarefa: Atualizar o status de um livro | 2.2.1 > 2.2.2 > 2.2.3 > 2.2.4 > 2.2.5 > 2.2.6 |
+| 2.2 |  Tarefa: Atualizar o status de um livro | 2.2.1 > 2.2.2 > 2.2.3 > 2.2.4 > 2.2.5 > 2.2.6. **Plano:** Abrir aplicativo e depois abrir página de perfil e depois abrir a página de lista e depois inserir o nome do livro e depois dar 'Enter'. |
 | 2.2.1 | Operação: Abrir aplicação |  |
 | 2.2.2 | Operação: Clicar em "Perfil" |  |
 | 2.2.3 | Operação: Clicar em "Histórico de Livros" |  |
-| 2.2.4 | Operação: Inserir o nome do livro | Condição: deve corresponder a um livro já registrado. |
+| 2.2.4 | Operação: Inserir o nome do livro | **Entrada:** Um texto de no máximo 30 caracteres, números ou símbolos. **Ação:** mostrar uma página de livro não encontrado caso o livro não exista na lista do usuário. |
 | 2.2.5 | Operação: Apertar a tecla "Enter" |  |
-| 2.2.6 | Tarefa: Atualizar o status do livro | 2.2.6.1 / 2.2.6.2 / 2.2.6.3 / 2.2.6.4 |
+| 2.2.6 | Tarefa: Atualizar o status do livro | 2.2.6.1 / 2.2.6.2 / 2.2.6.3 / 2.2.6.4. **Plano:** Selecionar o status desejado (ou lido, ou desejado, ou descartado, ou lendo). |
 | 2.2.6.1 | Operação: Clicar em "Lido" |  |
 | 2.2.6.2 | Operação: Clicar em "Desejado" |  |
 | 2.2.6.3 | Operação: Clicar em "Descartado" |  |
 | 2.2.6.4 | Operação: Clicar em "Lendo" |  |
 | 2.2.7 | Operação: Clicar em "Salvar" |  |
-| 2.3 | Tarefa: Consultar histórico | 2.3.1 > 2.3.2 > 2.3.3 |
+| 2.3 | Tarefa: Consultar histórico | 2.3.1 > 2.3.2 > 2.3.3. **Plano:** Abrir aplicativo e depois entrar na página de perfil e depois entrar na página de histórico de livros.  |
 | 2.3.1 | Operação: Abrir aplicação |  |
 | 2.3.2 | Operação: Clicar em "Perfil" |  |
 | 2.3.3 | Operação: Clicar em "Histórico de Livros" |  |
 
 **CTT (ConcurTaskTrees)**
+## Tarefa 1
 ![CTT1](CTT-1.png)
 ![CTT2](CTT-2.png)
+## Tarefa 2
 ![CTT3](CTT-3.png)
 ![CTT4](CTT-4.png)
 ![CTT5](CTT-5.png)
@@ -405,6 +410,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
