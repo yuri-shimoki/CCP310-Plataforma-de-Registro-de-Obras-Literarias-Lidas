@@ -377,6 +377,8 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 **MoLIC**
 ## Tarefa 1
 ![MoLIC1](MoLIC1.png)
+## Tarefa 2
+![MoLIC2](MoLIC2.png)
 
 ## Tecnologias
 **Front-end:**
@@ -412,6 +414,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
