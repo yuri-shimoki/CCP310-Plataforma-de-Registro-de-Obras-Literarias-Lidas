@@ -364,6 +364,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 | 2.3.1 | Operação: Abrir aplicação |  |
 | 2.3.2 | Operação: Clicar em "Perfil" |  |
 | 2.3.3 | Operação: Clicar em "Histórico de Livros" |  |
+![HTAD](DiagramaHTA.png)
 
 **CTT (ConcurTaskTrees)**
 ## Tarefa 1
@@ -414,6 +415,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
