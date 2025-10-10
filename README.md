@@ -1,9 +1,7 @@
 [TODO]:
 - MoLIC
-
-[CHANGELOG]:
-- CTT adicionado
-- Detalhamento do HTA feito. Agora a coluna 'Descrição' inclui campos de entrada, plano, problema e ação.
+- Diagrama HTA
+- Prototipação em médio nível (Figma)
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
@@ -410,6 +408,7 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
