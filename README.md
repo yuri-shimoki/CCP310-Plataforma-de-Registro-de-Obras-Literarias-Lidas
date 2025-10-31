@@ -3,6 +3,9 @@
 - Diagrama HTA
 - Prototipação em médio nível (Figma)
 
+[CHANGELOG]
+- Prototipação em médio nível iniciada (Figma): link para o projeto adicionado.
+
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
 Trabalho de Experiencia do Usuário (UX) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Experiência do Usuário e Front-End (CCP310) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
@@ -403,13 +406,11 @@ Pergunta 5: Qual tipo de interface você prefere em um aplicativo de leitura?
     - Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
 - Discuta o papel das expectativas do usuário no projeto deste serviço ou poduto. Qual a importância e pontos a serem considerados se você quiser vender esse serviço ou poduto?
 
-**FIGMA**
-https://www.figma.com/proto/wly7ecGYNnZaX2NmMTzw7I/Sem-t%C3%ADtulo?node-id=2-375&p=f&t=okVtdZ5PYHl1NJlc-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A375
-
 ### Prototipação em baixo nível (papel)
 #### Avaliação heurística
 
 ### Prtotipação em médio nível (Figma)
+https://www.figma.com/design/xRLnOMyFqUmC620UHyxBOC/Plataforma-de-Registro-Liter%C3%A1rio?node-id=0-1&t=TgM5cFH26DCfhBwp-1
 #### Avaliação heurística
 
 ### Prtotipação em alto nível (React)
@@ -420,6 +421,7 @@ https://www.figma.com/proto/wly7ecGYNnZaX2NmMTzw7I/Sem-t%C3%ADtulo?node-id=2-375
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
