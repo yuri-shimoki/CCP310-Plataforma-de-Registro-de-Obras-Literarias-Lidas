@@ -1,7 +1,7 @@
 [TODO]:
 - MoLIC
 - Diagrama HTA
-- Prototipação em médio nível (Figma)
+- Finalizar Figma: adicionar telas de erro
 
 [CHANGELOG]
 - Prototipação em médio nível iniciada (Figma): link para o projeto adicionado.
@@ -421,6 +421,7 @@ https://www.figma.com/design/xRLnOMyFqUmC620UHyxBOC/Plataforma-de-Registro-Liter
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
