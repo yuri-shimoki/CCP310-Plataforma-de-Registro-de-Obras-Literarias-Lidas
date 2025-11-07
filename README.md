@@ -1,11 +1,11 @@
 [TODO]:
 - Finalizar MoLIC: adicionar o diagrama da tarefa 2
-- Finalizar Figma: adicionar telas de erro
 
 [CHANGELOG]
 - Diagrama MoLIC para a tarefa 1 adicionado
 - Diagrama HTA adicionado
 - Prototipação em médio nível iniciada (Figma): link para o projeto adicionado.
+- Figma: telas de erro de login e cadastro adicionadas
 
 # **Tema escolhido:** Plataforma de Registro de Obras Literárias Lidas
 
@@ -422,6 +422,7 @@ https://www.figma.com/design/xRLnOMyFqUmC620UHyxBOC/Plataforma-de-Registro-Liter
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
