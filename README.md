@@ -1,3 +1,6 @@
+[TODO]
+- Avaliação
+
 [CHANGELOG]
 - Diagrama MoLIC para a tarefa 1 adicionado
 - Diagrama HTA adicionado
@@ -419,6 +422,7 @@ https://www.figma.com/design/xRLnOMyFqUmC620UHyxBOC/Plataforma-de-Registro-Liter
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
